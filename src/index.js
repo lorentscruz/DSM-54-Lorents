@@ -12,13 +12,14 @@ import * as serviceWorker from './serviceWorker';
 
 //import Login from './container/Login';
 
-import Register from './container/Register';
+//import Register from './container/Register';
 
 //import Carousel from '../components/Carousel';
 ///////import COLC from '../src/components/COLC';
 //////////import vacaciones from '../src/components/Vacaciones';
 //import ClaseDigital from '../src/components/ClaseDigital';
-//import App from './container/App';
+
+import App from './container/App';
 
 // Search from '../src/components/Search';
 
@@ -30,12 +31,12 @@ import Register from './container/Register';
 
 //ReactDOM.render(<Login />, document.getElementById ('root') );
 
-ReactDOM.render(<Register />, document.getElementById ('root') );
+//ReactDOM.render(<Register />, document.getElementById ('root') );
 
 
 //ReactDOM.render(<Carousel />, document.getElementById ('root') );
 
-//ReactDOM.render(<App />, document.getElementById ('root') );
+ReactDOM.render(<App />, document.getElementById ('root') );
 
 //////ReactDOM.render(<COLC />, document.getElementById ('root') );
 

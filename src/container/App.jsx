@@ -17,7 +17,7 @@ const App = () =>(
     </div>
 );
 export default App;
-*/
+
 import React  from  'react';
 import '../assets/style/components/App.scss';
 import '../assets/style/Examen.scss';
@@ -33,6 +33,38 @@ const App = () =>(
         <Vacaciones />
         <ClaseDigital />
         
+    </div>
+);
+export default App;
+*/
+
+import React  from  'react';
+import '../assets/style/components/App.scss';
+import Header from '../components/Header';
+import Search from '../components/Search';
+import Footer from '../components/Footer';
+import Carousel from '../components/Carousel';
+import CarouselIteam from '../components/CarouselIteam';
+import Categories from '../components/Categories';
+
+
+
+const App = () =>(
+    <div className="App">
+        <Header />
+        <Search />
+        <Categories>
+        <Carousel>
+            <CarouselIteam />
+            <CarouselIteam />
+            <CarouselIteam />
+            <CarouselIteam />
+            <CarouselIteam />
+            <CarouselIteam />
+        </Carousel>
+        </Categories>
+
+        <Footer />
     </div>
 );
 export default App;

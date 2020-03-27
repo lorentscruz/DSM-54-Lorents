@@ -15,9 +15,7 @@ const Login= () =>{
                 <title>Inicia Sesión</title>
             </head>
             <body class="body">
-                <header className="header">
-                    <img class="header__img" src="../assets/logo-platzi-video-BW2.png" alt="Platzi Video"/>
-                </header>
+                
                 <section class="login">
                     <section class="login__container">
                         <h2>Inicia sesión</h2>
