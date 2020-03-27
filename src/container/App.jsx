@@ -58,9 +58,6 @@ const App = () =>(
             <CarouselIteam />
             <CarouselIteam />
             <CarouselIteam />
-            <CarouselIteam />
-            <CarouselIteam />
-            <CarouselIteam />
         </Carousel>
         </Categories>
 
