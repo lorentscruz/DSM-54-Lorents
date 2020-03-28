@@ -1,8 +1,10 @@
+@import "./Vars.scss";
+
 .footer{
 
 align-items:center;
 
-background-color:#0615e7;
+background-color:$main-color;
 
 display:flex;
 
@@ -15,7 +17,7 @@ width:100%;
 
 .footera{
 
-color:red;
+color:$main-color;
 
 cursor:pointer;
 
